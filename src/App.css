@@ -1,0 +1,388 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.logo a {
+  margin: 0 auto;
+  color: #ffffff;
+  text-decoration: none;
+  font: 2em sans-serif;
+  font-weight: bold;
+  padding: 5px 100px;
+  margin-right: 10%;
+  margin-left: -150px;
+}
+
+.Navbar {
+  margin: 0 auto;
+  display: flex;
+  font-weight: bold;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 0px 0px 200px;
+  background-color: #000;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.links {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  list-style: none;
+}
+
+.links a {
+  text-decoration: none;
+  color: #ffffff;
+
+  font-size: 18px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.links a:hover {
+  color: #f6ff00;
+  margin: 0 auto;
+}
+
+.herosection {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-image: linear-gradient(rgba(9, 9, 9, 0.595), rgba(90, 84, 84, 0.335)), url(./assets/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 10%;
+}
+
+.herotext {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  text-shadow: 1px 1px 30px rgb(238, 255, 0);
+
+}
+
+.logo:hover a {
+  color: rgb(246, 6, 246);
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+h1:hover {
+  color: rgb(245, 15, 245);
+}
+
+h3:hover {
+  color: rgb(245, 15, 245);
+}
+
+/* -------------body-------- */
+/* --------------------------- */
+/* cards */
+.mainbox {
+  margin: 0 auto;
+  display: flex;
+  margin-top: -200px;
+  margin-bottom: 200px;
+
+}
+
+@keyframes mymove {
+  from {
+    background-color: rgb(245, 9, 241);
+  }
+
+  to {
+    background-color: rgb(0, 0, 0);
+  }
+}
+
+.box {
+  margin: 0 auto;
+  max-width: 430px;
+  width: 370px;
+  height: 460px;
+  min-height: 100px;
+  padding: 10px;
+  text-align: left;
+  border: 5px solid rgba(0, 0, 0, 0.479);
+  box-sizing: border-box;
+  border-radius: 2%;
+  color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  animation: mymove 2s infinite;
+
+}
+
+img {
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 10%;
+  margin-bottom: 5px;
+}
+
+p,
+h3 {
+  padding: 5px;
+  margin: 0 auto;
+}
+
+/* ---------about----------------  */
+.mainbox2 {
+  width: 100%;
+  height: 450px;
+  margin: 0 auto;
+  display: flex;
+  padding: 20px;
+  margin-top: 300px;
+  margin-bottom: 300px;
+  background-color: #d90ef47a;
+}
+
+.box2 h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  font: 4em sans-serif;
+}
+
+.box2 p {
+  font-size: 20px;
+}
+
+.box2 {
+  margin: 0 auto;
+  width: 50%;
+  height: 300px;
+  text-align: left;
+  box-sizing: border-box;
+  border-radius: 2%;
+}
+
+.box1 {
+  width: 40%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  height: 350px;
+  border-radius: 20px;
+}
+
+.box1 img {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 600px;
+  height: 300px;
+}
+
+
+/* -------team------------------  */
+.mainbox3 {
+  margin: 0 auto;
+  display: flex;
+  padding: 60px;
+  margin-top: -140px;
+  margin-bottom: 60px;
+}
+
+.box3 h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  font: 4em sans-serif;
+}
+
+.box3 p {
+  font-size: 20px;
+}
+
+.box3 {
+  margin: 0 auto;
+  width: 90%;
+  height: 200px;
+  border-radius: 2%;
+}
+
+.box3 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+/* -----------------team--------------------- */
+.box4 {
+  margin: 0 auto;
+  width: 812px;
+  padding: 10px;
+  background-color: #000000;
+  border-radius: 20px;
+  margin-bottom: 200px;
+}
+
+.box4 img {
+  margin: 0 auto;
+  width: 790px;
+  height: 450px;
+  border-radius: 20px;
+}
+
+/* ---------------galley products--------------------- */
+.mainboxgallary {
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 300px;
+  background-color: #ff00ff8c;
+}
+
+.mainboxgallary h1 {
+  margin: 0 auto;
+  width: 100%;
+  height: 50px;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: 900;
+  color: #000;
+}
+
+.mainboxgallary img {
+  display: inline;
+  margin: 10px;
+  width: 500px;
+  height: 350px;
+  padding: 8px;
+  border-radius: 20px;
+ 
+} 
+
+@keyframes mymove {
+  from {
+    background-color: rgba(245, 9, 241, 0.565);
+  }
+
+  to {
+    background-color: rgba(229, 239, 36, 0.462);
+  }
+}
+
+
+/* --------------blogs------------------ */
+.mainboxblogs2 {
+  width: 100%;
+  height: 650px;
+  margin: 0 auto;
+  display: flex;
+  padding: 20px;
+  margin-top: -50px;
+  margin-bottom: 240px;
+}
+
+.boxblogs2 h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  font: 4em sans-serif;
+}
+
+.boxblogs2 p {
+  font-size: 20px;
+}
+
+.boxblogs2 {
+  margin: 0 auto;
+  width: 50%;
+  height: 400px;
+  text-align: left;
+  box-sizing: border-box;
+  border-radius: 2%;
+}
+
+.box1 {
+  width: 30%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.boxblogs1 img {
+  margin: 0 auto;
+  margin-top: 110px;
+  width: 520px;
+  height: 600px;
+  padding-left: 50px;
+}
+
+/* ------------contact-------------- */
+.contact{
+  width: 100%;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 150px;
+  padding-top: 10px;
+  margin-top: 100px;
+  color: #ffffff;
+  background-color: #000000a4;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.284),rgba(97, 83, 96, 0.558)),url(./assets/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 300px;
+}
+.contact p {
+  font-size: 18px;
+  color: #ffffff;
+}
+/* ----------footer-------------------------- */
+
+.social-network li {
+  display: inline;
+  padding: 0px 0px 20px 180px;
+  color: rgb(255, 0, 255);
+  font-size: 20px;
+
+}
+
+footer {
+  background-color: #000;
+  color: #ffffff;
+}
+
+strong {
+  color: rgb(255, 0, 255);
+  font-size: 17px;
+}
+/* -----------------space------------------ */
+.holo{
+  width: 100%;
+  height: 0px;
+}
