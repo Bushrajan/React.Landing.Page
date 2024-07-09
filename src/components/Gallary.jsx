@@ -1,9 +1,9 @@
 function Gallary() {
     return (
 
-        <div className="boxblogs2">
+        <div className="Pro">
             <center>
-                <h1 id="products">Our Products </h1>
+                <h1 id="products" style={{fontSize:"4em sans-serif"}}>Our Products </h1>
             </center>
             <div className="mainboxgallary">
                 <marquee behavior="" direction="left">
@@ -23,6 +23,7 @@ function Gallary() {
 
                 </marquee>
             </div>
+            <div className="holo"></div>
         </div>
 
 
