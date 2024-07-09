@@ -20,8 +20,8 @@ function Footer() {
 
             <div className="copyright">
                 <center>
-                    <strong><br /> Copyright &copy; 2024  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      <a href="mailto:bushrajantubajan@example.com">React@gmail.com</a>
-                    </strong>    <br />
+                    <strong> Copyright &copy; 2024  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      <a href="mailto:bushrajantubajan@example.com">React@gmail.com</a>
+                    </strong>
                 </center></div>
 
         </footer>

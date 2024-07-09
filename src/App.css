@@ -30,6 +30,18 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 10000;
+  /* ------------------------ */
+  /* position: absolute;
+  top: 30;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1000; */
 }
 
 .links {
@@ -55,17 +67,24 @@
   margin: 0 auto;
 }
 
+
+
+/* ------------------------------- */
+
 .herosection {
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
-  background-image: linear-gradient(rgba(9, 9, 9, 0.595), rgba(90, 84, 84, 0.335)), url(./assets/background.png);
-  background-position: center;
+  height: 100vh;
+  /* background-image: linear-gradient(rgba(9, 9, 9, 0.595), rgba(90, 84, 84, 0.335)), url(./assets/background.png); */
+  background-image: linear-gradient(rgba(9, 9, 9, 0.595), rgba(90, 84, 84, 0.335)), url(https://smartphonemagazine.nl/wp-content/uploads/2024/06/compressed_img-OXmkWzCHp3Q8CzfdUSJrxnEm.png);
+  /* background-image: linear-gradient(rgba(9, 9, 9, 0.103), rgba(90, 84, 84, 0)), url(https://mobilemunk.io/wp-content/uploads/2020/09/Best-LG-phones-September-2020.jpg); */
+  background-position: cover;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 10%;
+  width: 102%;
 }
 
 .herotext {
@@ -108,42 +127,31 @@ h3:hover {
 .mainbox {
   margin: 0 auto;
   display: flex;
-  margin-top: -200px;
-  margin-bottom: 200px;
-
 }
 
-@keyframes mymove {
-  from {
-    background-color: rgb(245, 9, 241);
-  }
+.cardss {
+  margin: 0 170px 0 125px;
 
-  to {
-    background-color: rgb(0, 0, 0);
-  }
 }
 
 .box {
-  margin: 0 auto;
-  max-width: 430px;
-  width: 370px;
-  height: 460px;
-  min-height: 100px;
-  padding: 10px;
+  width: 333px;
+  height: 380px;
   text-align: left;
-  border: 5px solid rgba(0, 0, 0, 0.479);
   box-sizing: border-box;
   border-radius: 2%;
   color: rgb(0, 0, 0);
-  background-color: rgb(0, 0, 0);
-  animation: mymove 2s infinite;
+  margin: 0 auto;
+  max-width: 418px;
+  min-height: 100px;
+  border: 5px solid rgba(0, 0, 0, 0.479);
 
 }
 
-img {
+.box img {
+  max-width: 290px;
   width: 400px;
   margin: 0 auto;
-  border-radius: 10%;
   margin-bottom: 5px;
 }
 
@@ -156,13 +164,12 @@ h3 {
 /* ---------about----------------  */
 .mainbox2 {
   width: 100%;
-  height: 450px;
+  height: 550px;
   margin: 0 auto;
   display: flex;
-  padding: 20px;
-  margin-top: 300px;
+  padding: 70px;
+  margin-top: 50px;
   margin-bottom: 300px;
-  background-color: #d90ef47a;
 }
 
 .box2 h1 {
@@ -177,26 +184,27 @@ h3 {
 
 .box2 {
   margin: 0 auto;
-  width: 50%;
-  height: 300px;
+  width: 45%;
+  height: 500px;
   text-align: left;
   box-sizing: border-box;
   border-radius: 2%;
 }
 
+/* -------------------about----------------------- */
 .box1 {
-  width: 40%;
-  margin: 0 auto;
-  background-color: #ffffff;
-  height: 350px;
   border-radius: 20px;
+  background-color: #ffffff;
+  padding: 25px;
+  margin: 70px auto;
+
 }
 
-.box1 img {
-  margin: 0 auto;
-  margin-top: 40px;
+.box1img {
+  border-radius: 2%;
   width: 600px;
-  height: 300px;
+  margin: 100px auto;
+  margin-top: 40px;
 }
 
 
@@ -262,7 +270,7 @@ h3 {
   padding: 10px;
   margin-top: 50px;
   margin-bottom: 300px;
-  background-color: #ff00ff8c;
+  /* background-color: #ff00ff8c; */
 }
 
 .mainboxgallary h1 {
@@ -284,17 +292,7 @@ h3 {
   height: 350px;
   padding: 8px;
   border-radius: 20px;
- 
-} 
 
-@keyframes mymove {
-  from {
-    background-color: rgba(245, 9, 241, 0.565);
-  }
-
-  to {
-    background-color: rgba(229, 239, 36, 0.462);
-  }
 }
 
 
@@ -304,9 +302,9 @@ h3 {
   height: 650px;
   margin: 0 auto;
   display: flex;
-  padding: 20px;
-  margin-top: -50px;
-  margin-bottom: 240px;
+  padding: 5%;
+  margin-top: -180px;
+  margin-bottom: 280px;
 }
 
 .boxblogs2 h1 {
@@ -317,6 +315,8 @@ h3 {
 
 .boxblogs2 p {
   font-size: 20px;
+  margin-top: 15px;
+  /* background-color: #00000047; */
 }
 
 .boxblogs2 {
@@ -328,48 +328,43 @@ h3 {
   border-radius: 2%;
 }
 
-.box1 {
-  width: 30%;
-  margin: 0 auto;
-  background-color: #ffffff;
-  border-radius: 20px;
-}
-
 .boxblogs1 img {
   margin: 0 auto;
   margin-top: 110px;
   width: 520px;
-  height: 600px;
-  padding-left: 50px;
+  height: 430px;
+  border-radius: 20px;
 }
 
 /* ------------contact-------------- */
-.contact{
+.contact {
   width: 100%;
-  padding-left: 150px;
-  padding-right: 150px;
+  height: 650px;
+  padding-right: 400px ;
+  padding-left: 300px;
   padding-bottom: 150px;
   padding-top: 10px;
-  margin-top: 100px;
+  margin-top: -80px;
   color: #ffffff;
-  background-color: #000000a4;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.284),rgba(97, 83, 96, 0.558)),url(./assets/background.png);
-  background-position: center;
+  background-color: #000000;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.284), rgba(97, 83, 96, 0.558)), url(https://www.deepc.vn/images/contact/_Image__3.jpg); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.284), rgba(97, 83, 96, 0.558)),url(https://www.onit.com/wp-content/uploads/2021/01/iStock-1204099471.jpg);
+  background-position: cover;
   background-repeat: no-repeat;
   margin-bottom: 300px;
 }
+
 .contact p {
   font-size: 18px;
   color: #ffffff;
 }
-/* ----------footer-------------------------- */
 
+/* ----------footer-------------------------- */
 .social-network li {
   display: inline;
-  padding: 0px 0px 20px 180px;
-  color: rgb(255, 0, 255);
-  font-size: 20px;
-
+  padding: 0px 0px 0px 175px;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
 }
 
 footer {
@@ -378,11 +373,80 @@ footer {
 }
 
 strong {
-  color: rgb(255, 0, 255);
+  color: rgb(255, 255, 255);
   font-size: 17px;
 }
+
 /* -----------------space------------------ */
-.holo{
+.holo {
   width: 100%;
   height: 0px;
+  padding-bottom: 20px;
+
+}
+
+/* --------------------------- */
+
+
+/* ---------------------------------- *Media query* ---------------------------------- */
+/* ---------------------------------- *Media query* ---------------------------------- */
+/* ---------------------------------- *Media query* ---------------------------------- */
+
+@media (min-width: 768px) {
+  body {
+    width: 1250px;
+    font-size: 20px;
+
+  }
+}
+
+@media (min-width: 1920px) {
+  body {
+    width: 1920px;
+    font-size: 20px;
+  }
+}
+
+
+@media (min-width: 1440px) {
+  body {
+    width: 1440px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1280px) {
+  body {
+    width: 1440px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 2560px) {
+  body {
+    width: 2560px;
+    font-size: 20px;
+  }
+}
+
+/* ------small devices---------------------- */
+
+
+@media (max-width:320px) {
+  body {
+    width: 1200px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    width: 1250px;
+    font-size: 20px;
+
+  }
+}
+
+body {
+  overflow-x: hidden;
 }

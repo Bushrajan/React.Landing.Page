@@ -6,11 +6,12 @@ function Blogs() {
             </div>
             <div className="boxblogs2">
                 <h1>Blogs</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non molestias odio maxime accusamus, rerum optio voluptatum reprehenderit error dolore repudiandae vel exercitationem nisi animi labore et impedit doloribus libero quaerat illuremque laboriosam rerum dolorem iste cum saepe vitae aliquam, laudantium dolore voluptatibus, quas iusto. Vitae ab, earumliquam, unde earum eveniet minima!</p>
-                <blockquote><strong>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, repudiandae temporibus quo magnam laudantium ex ipsa officia nostrum deleniti expedita corporis consequatur ipsum? Eaque saepe at iusto cupiditate veritatis accusantium."</strong></blockquote>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim rerum adipisci repellat, provident animi suscipit consequuntur voluptas, perspiciatis vel tempore dolores quaerat reiciendis voluptatum neque illum nostrum alias, cum  tempore quam, ut suscipit nihil rem, officiis in eveniet autem voluptates nobis ducimus</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non molestias odio maxime accusamus, rerum optio voluptatum reprehenderit quas iusto. Vitae ab, earumliquam, unde earum eveniet minima!</p>
+                {/* <br /> */}
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim rerum adipisci   tempore quam, ut suscipit nihil rem, officiis in eveniet autem voluptates nobis ducimus</p>
                 <blockquote><strong>"Lorem ipsum dolor sit amet consectetur accusantium."</strong></blockquote>
-                <p>cumque reiciendis id? Ducimus nostrum, accusamus repellat tempora perferendis facere vero quaerat voluptate facilis, sapiente libero vitae magnam id, amet quae dolorum. Natus praesentium voluptatem quos fugit?</p>
+                <br />
+                <p>cumque reiciendis id? Ducimus nostrum, accusamus repellat tempora perfermagnam id, amet quae dolorum. Natus praesentium voluptatem quos fugit?</p>
             </div>
         </div>
     )

@@ -4,8 +4,8 @@ import Gallary from './components/Gallary'
 import Blogs from './components/Blogs'
 import Contact from './components/Contact';
 import Footer from './components/Footer'
-import PHONE2 from './assets/p3.webp';
 import TEAM from './assets/team.jpg';
+
 import './App.css'
 
 
@@ -14,6 +14,7 @@ function App() {
 
     <main>
       <Header />
+
       <Body />
 
       <div className="holo"></div>
@@ -24,7 +25,7 @@ function App() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non molestias odio maxime accusamus, rerum optio voluptatum reprehenderit error dolore repudiandae vel exercitationem nisi animi labore et impedit doloribus libero quaerat illum velit eveniet consequuntur! Quo minus facere quasi, ea optio sed dicta velit. Quas excepturi ipsum quaerat. Ad doloremque, velit officia veritatis ratione facilis rerum doloribus delectus minus laborum neque iure vel voluptatum maiores! Doloremque laboriosam rerum dolorem iste cum saepe vitae aliquam, laudantium dolore voluptatibus, quas iusto. Vitae ab, earumliquam, unde earum eveniet minima!</p>
         </div>
         <div className="box1">
-          <img src={PHONE2} alt="img" />
+          <img src="https://www.fonezone.ae/cdn/shop/articles/Sneak_Peek_Into_The_Future_Motorola_Showcases_Bendable_Phone_At_MWC.webp?v=1709130893" alt="img" className='box1img' />
         </div>
       </div>
       <div className="holo"></div>
@@ -42,14 +43,12 @@ function App() {
       <div className="box4" >
         <img src={TEAM} alt="img" />
       </div>  {/* --------------team end----------- */}
-
       <div className="holo"></div>
       <div id='products'><Gallary /></div>
       <div className="holo"></div>
       <div id='blogs'><Blogs /></div>
       <div className="holo"></div>
-      <img src="https://jazeeratalahlam.com/cdn/shop/products/dfsdg.png?v=1666438278" alt="" style={{ width: "100%", height: "400px", marginBottom: "20px" }} />
-      <div className="holo"></div>
+
       <Contact />
       <div className="holo"></div>
       <Footer />
