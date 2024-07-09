@@ -1,7 +1,7 @@
 function Gallary() {
     return (
 
-        <div>
+        <div className="boxblogs2">
             <center>
                 <h1 id="products">Our Products </h1>
             </center>
